@@ -1,0 +1,55 @@
+package mx.com.everis.proyecto;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class ServletNvo
+ */
+@WebServlet("/ServletNvo")
+public class ServletNvo extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private static final String INSERTAR = "";
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public ServletNvo() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String action = request.getParameter("action");
+		//System.out.println(action);
+		String forward = "";
+		
+		if (action.equals("insertar")){
+			System.out.println("Se llamo a Insertar");
+			forward = INSERTAR;
+		}else
+			System.out.println("No se hizo el llamado");
+		
+		RequestDispatcher view = request.getRequestDispatcher(forward);
+		view.forward(request, response);
+
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	}
+
+}

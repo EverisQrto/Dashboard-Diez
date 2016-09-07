@@ -1,0 +1,430 @@
+!SESSION 2016-08-30 19:29:07.768 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=JRE 1.6.0 IBM J9 2.6 Linux x86-32 20130301_140166 (JIT enabled, AOT enabled)
+J9VM - R26_Java626_SR5_FP1_20130301_0937_B140166
+JIT  - r11.b03_20130131_32403
+GC   - R26_Java626_SR5_FP1_20130301_0937_B140166
+J9CL - 20130301_140166
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/everis/workspace/tallerjava -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 4 0 2016-08-30 19:29:17.570
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.umd.cs.findbugs.plugin.eclipse [1079]
+  Unresolved requirement: Require-Bundle: findbugs; visibility:="reexport"; resolution:="optional"
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SESSION 2016-08-30 19:30:03.699 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=JRE 1.6.0 IBM J9 2.6 Linux x86-32 20130301_140166 (JIT enabled, AOT enabled)
+J9VM - R26_Java626_SR5_FP1_20130301_0937_B140166
+JIT  - r11.b03_20130131_32403
+GC   - R26_Java626_SR5_FP1_20130301_0937_B140166
+J9CL - 20130301_140166
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/everis/workspace/tallerjava -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 4 0 2016-08-30 19:30:09.294
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.umd.cs.findbugs.plugin.eclipse [1079]
+  Unresolved requirement: Require-Bundle: findbugs; visibility:="reexport"; resolution:="optional"
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2016-08-30 20:13:10.197
+!MESSAGE Server WebSphere Application Server v8.5 at localhost was unable to start within 300 seconds. If the server requires more time, try increasing the timeout in the server editor.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2016-08-30 20:13:10.280
+!MESSAGE Server WebSphere Application Server v8.5 at localhost failed to stop.
+!SESSION 2016-09-06 19:55:53.119 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=JRE 1.6.0 IBM J9 2.6 Linux x86-32 20130301_140166 (JIT enabled, AOT enabled)
+J9VM - R26_Java626_SR5_FP1_20130301_0937_B140166
+JIT  - r11.b03_20130131_32403
+GC   - R26_Java626_SR5_FP1_20130301_0937_B140166
+J9CL - 20130301_140166
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 4 0 2016-09-06 19:56:18.302
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.umd.cs.findbugs.plugin.eclipse [1079]
+  Unresolved requirement: Require-Bundle: findbugs; visibility:="reexport"; resolution:="optional"
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-09-06 19:56:23.737
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2016-09-06 19:56:39.140
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.wst.validation 4 0 2016-09-06 19:56:51.737
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException: 
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.checkCanceled(ValidationOperation.java:197)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.run(ValidationOperation.java:652)
+	at org.eclipse.wst.validation.internal.operations.ValidationBuilder.performFullBuild(ValidationBuilder.java:264)
+	at org.eclipse.wst.validation.internal.operations.ValidationBuilder.performFullBuild(ValidationBuilder.java:256)
+	at org.eclipse.wst.validation.internal.operations.ValidationBuilder.build(ValidationBuilder.java:182)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-09-07 10:54:15.546
+!MESSAGE An internal error occurred during: "Design pane refresh".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.etools.rpe.internal.model.TransformerManager.createClonedNode(TransformerManager.java:425)
+	at com.ibm.etools.rpe.internal.model.TransformerManager.generateVisualizationNode(TransformerManager.java:400)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleVisualizationReplacement(ModelSynchronizerUtil.java:216)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleTextNodeChanges(ModelSynchronizerUtil.java:385)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob$1.run(TextUpdaterJob.java:86)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob.run(TextUpdaterJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-09-07 10:54:18.641
+!MESSAGE An internal error occurred during: "Design pane refresh".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.etools.rpe.internal.model.TransformerManager.createClonedNode(TransformerManager.java:425)
+	at com.ibm.etools.rpe.internal.model.TransformerManager.generateVisualizationNode(TransformerManager.java:400)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleVisualizationReplacement(ModelSynchronizerUtil.java:216)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleTextNodeChanges(ModelSynchronizerUtil.java:385)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob$1.run(TextUpdaterJob.java:86)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob.run(TextUpdaterJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-09-07 10:54:22.095
+!MESSAGE An internal error occurred during: "Design pane refresh".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.etools.rpe.internal.model.TransformerManager.createClonedNode(TransformerManager.java:425)
+	at com.ibm.etools.rpe.internal.model.TransformerManager.generateVisualizationNode(TransformerManager.java:400)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleVisualizationReplacement(ModelSynchronizerUtil.java:216)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleTextNodeChanges(ModelSynchronizerUtil.java:385)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob$1.run(TextUpdaterJob.java:86)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob.run(TextUpdaterJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-09-07 10:54:24.664
+!MESSAGE An internal error occurred during: "Design pane refresh".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.etools.rpe.internal.model.TransformerManager.createClonedNode(TransformerManager.java:425)
+	at com.ibm.etools.rpe.internal.model.TransformerManager.generateVisualizationNode(TransformerManager.java:400)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleVisualizationReplacement(ModelSynchronizerUtil.java:216)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleTextNodeChanges(ModelSynchronizerUtil.java:385)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob$1.run(TextUpdaterJob.java:86)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob.run(TextUpdaterJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-09-07 10:54:30.624
+!MESSAGE An internal error occurred during: "Design pane refresh".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.etools.rpe.internal.model.TransformerManager.createClonedNode(TransformerManager.java:425)
+	at com.ibm.etools.rpe.internal.model.TransformerManager.generateVisualizationNode(TransformerManager.java:400)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleVisualizationReplacement(ModelSynchronizerUtil.java:216)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleTextNodeChanges(ModelSynchronizerUtil.java:385)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob$1.run(TextUpdaterJob.java:86)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob.run(TextUpdaterJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-09-07 10:54:32.620
+!MESSAGE An internal error occurred during: "Design pane refresh".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.etools.rpe.internal.model.TransformerManager.createClonedNode(TransformerManager.java:425)
+	at com.ibm.etools.rpe.internal.model.TransformerManager.generateVisualizationNode(TransformerManager.java:400)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleVisualizationReplacement(ModelSynchronizerUtil.java:216)
+	at com.ibm.etools.rpe.internal.model.adapters.ModelSynchronizerUtil.handleTextNodeChanges(ModelSynchronizerUtil.java:385)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob$1.run(TextUpdaterJob.java:86)
+	at com.ibm.etools.rpe.internal.model.adapters.TextUpdaterJob.run(TextUpdaterJob.java:93)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 0 2016-09-07 10:57:50.598
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3774)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3412)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:562)
+	at com.ibm.etools.rpe.internal.ui.DesignPaneController$19.run(DesignPaneController.java:1871)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:167)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:165)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 24 more
+
+!ENTRY org.eclipse.ui 4 0 2016-09-07 10:57:50.615
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3774)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3412)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:562)
+	at com.ibm.etools.rpe.internal.ui.DesignPaneController$19.run(DesignPaneController.java:1871)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:167)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:165)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 24 more
+
+!ENTRY org.eclipse.ui 4 0 2016-09-07 10:57:50.617
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3774)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3412)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:562)
+	at com.ibm.etools.rpe.internal.ui.DesignPaneController$19.run(DesignPaneController.java:1871)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:167)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:165)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 24 more
+
+!ENTRY org.eclipse.ui 4 0 2016-09-07 10:57:50.619
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3774)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3412)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:562)
+	at com.ibm.etools.rpe.internal.ui.DesignPaneController$19.run(DesignPaneController.java:1871)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:167)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:165)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 24 more
+
+!ENTRY org.eclipse.ui 4 0 2016-09-07 10:57:50.621
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3774)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3412)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:60)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:37)
+	at java.lang.reflect.Method.invoke(Method.java:611)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:562)
+	at com.ibm.etools.rpe.internal.ui.DesignPaneController$19.run(DesignPaneController.java:1871)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:167)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:165)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 24 more
+!SESSION 2016-09-07 13:44:54.795 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=JRE 1.6.0 IBM J9 2.6 Linux x86-32 20130301_140166 (JIT enabled, AOT enabled)
+J9VM - R26_Java626_SR5_FP1_20130301_0937_B140166
+JIT  - r11.b03_20130131_32403
+GC   - R26_Java626_SR5_FP1_20130301_0937_B140166
+J9CL - 20130301_140166
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_MX
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 4 0 2016-09-07 13:45:04.930
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: edu.umd.cs.findbugs.plugin.eclipse [1079]
+  Unresolved requirement: Require-Bundle: findbugs; visibility:="reexport"; resolution:="optional"
+  Unresolved requirement: Require-Capability: osgi.ee; filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1561)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)

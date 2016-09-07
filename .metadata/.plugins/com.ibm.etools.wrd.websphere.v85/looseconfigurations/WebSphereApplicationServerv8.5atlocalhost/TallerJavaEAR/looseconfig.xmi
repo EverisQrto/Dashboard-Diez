@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseArchive xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.jst.j2ee.commonarchivecore.looseconfig="commonarchive.looseconfig.xmi" uri="/home/everis/workspace/tallerjava/TallerJavaEAR" binariesPath="/home/everis/workspace/tallerjava/TallerJavaEAR" resourcesPath="/home/everis/workspace/tallerjava/TallerJavaEAR" archiveType="EAR">
+  <looseChildren uri="MiProyecto.war" binariesPath="/home/everis/workspace/tallerjava/MiProyecto/WebContent" resourcesPath="/home/everis/workspace/tallerjava/MiProyecto/WebContent" archiveType="WAR"/>
+  <looseChildren uri="MiProjecto2.war" binariesPath="/home/everis/workspace/tallerjava/MiProjecto2/WebContent" resourcesPath="/home/everis/workspace/tallerjava/MiProjecto2/WebContent" archiveType="WAR"/>
+  <looseChildren uri="lib/ReglasJava.jar" binariesPath="/home/everis/workspace/tallerjava/ReglasJava/bin" resourcesPath="/home/everis/workspace/tallerjava/ReglasJava/bin" archiveType="SIMPLEJAR"/>
+</org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseArchive>
